@@ -1,0 +1,29 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #dccff4;
+    display: flex; /* FlexBox é um tipo de caixa para posicionamento */
+    align-items: center; /* centraliza verticalmente*/
+    justify-content: center; /* centraliza horizontalmente */ 
+    height: 100vh; /* vh = vertical height -=> Tamanho na Altura */
+}
+.card {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+button:hover {
+    background-color: #f3a4b8;
+    cursor:pointer;
+
+
+}
+
+   
+.image {
+   border-radius: 50%;
+   width: 100px; 
+   height: 100px;
+   margin-bottom: 10px;
+}
